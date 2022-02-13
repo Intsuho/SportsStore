@@ -56,7 +56,7 @@ defaults: new { Controller = "Product", action = "List" });
 name: "default",
 template: "{controller=Product}/{action=List}/{id?}");
             });
-            SeedData.EnsurePopulated(app);
+            SeedData.EnsurePopulated(app);//kkk
         }
     }
 }
